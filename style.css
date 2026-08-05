@@ -35,28 +35,14 @@ body{
     display:flex;
     align-items:center;
     gap:12px;
-    .logo img
-    {
-    
+}
+
+.logo img{
     width:45px;
     height:45px;
     border-radius:50%;
     object-fit:cover;
 }
-}
-
-.logo span{
-    width:45px;
-    height:45px;
-    border-radius:50%;
-    background:#c084fc;
-    color:#111;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bold;
-}
-
 .logo h2{
     font-size:24px;
 }
@@ -85,10 +71,7 @@ body{
     border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
-.logo span{
-    background:linear-gradient(135deg,#c084fc,#38bdf8);
-    box-shadow:0 0 20px rgba(192,132,252,.5);
-}
+
 
 .nav-links a{
     position:relative;
@@ -114,8 +97,6 @@ body{
     background:linear-gradient(135deg,#c084fc,#38bdf8);
     box-shadow:0 0 15px rgba(192,132,252,.4);
 }
-
-/* ===== Hero ===== */
 
 .hero{
     min-height:90vh;
