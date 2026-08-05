@@ -323,7 +323,6 @@ footer h3{
     }
 }
 /* ===== Mobile Menu ===== */
-
 .menu-toggle{
     display:none;
     font-size:30px;
@@ -359,6 +358,7 @@ footer h3{
 .nav-links{
     display:flex !important;
 }
+
 /* ===== Portfolio ===== */
 
 #portfolio .card{
