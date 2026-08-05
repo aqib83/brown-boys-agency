@@ -35,6 +35,14 @@ body{
     display:flex;
     align-items:center;
     gap:12px;
+    .logo img
+    {
+    
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    object-fit:cover;
+}
 }
 
 .logo span{
