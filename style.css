@@ -291,23 +291,28 @@ footer h3{
 #topBtn:hover{
     transform:scale(1.1);
 }
-
 /* ===== Responsive ===== */
-
 @media(max-width:768px){
 
     .navbar{
-        flex-direction:column;
+        flex-direction:row;
+        justify-content:space-between;
         gap:15px;
     }
 
     .nav-links{
-        flex-wrap:wrap;
-        justify-content:center;
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+    }
+
+    .nav-links.active{
+        display:flex;
     }
 
     .nav-links li{
-        margin:8px;
+        margin:10px;
     }
 
     .hero h1{
@@ -321,7 +326,9 @@ footer h3{
     section{
         padding:60px 20px;
     }
+
 }
+
 /* ===== Mobile Menu ===== */
 .menu-toggle{
     display:none;
@@ -348,16 +355,6 @@ footer h3{
     }
 
 }
-.menu-toggle{
-    display:block !important;
-    color:#ffffff;
-    font-size:32px;
-    cursor:pointer;
-}
-
-.nav-links{
-    display:flex !important;
-}
 
 /* ===== Portfolio ===== */
 
@@ -379,6 +376,7 @@ footer h3{
     color:#c084fc;
     margin-bottom:10px;
 }
+
 /* ===== Portfolio Images ===== */
 
 #portfolio img{
