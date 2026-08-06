@@ -125,6 +125,8 @@ if(themeBtn){
     });
     // ===== EmailJS =====
 
+alert("Script Loaded");
+    
 emailjs.init({
     publicKey: "naAiQ6VfiSkiO40yx",
 });
