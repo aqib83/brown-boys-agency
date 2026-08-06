@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aqib83.github.io/brown-boys-agency/sitemap.xml
