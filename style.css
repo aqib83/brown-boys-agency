@@ -930,3 +930,22 @@ body.light-mode .card{
     background:#f5f5f5;
     color:#111;
 }
+/* Light Mode */
+
+body.light-mode{
+    background:#ffffff;
+    color:#111;
+}
+
+body.light-mode section{
+    background:#ffffff;
+}
+
+body.light-mode .navbar{
+    background:#ffffff;
+}
+
+body.light-mode .card{
+    background:#f5f5f5;
+    color:#111;
+}
