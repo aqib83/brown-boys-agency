@@ -150,5 +150,3 @@ if (contactForm) {
         });
     });
 }
-
-}
