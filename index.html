@@ -350,19 +350,19 @@ High-converting landing pages for products and services.
     </div>
 
 
-    <form class="contact-form">
+    <form class="contact-form" id="contact-form">
 
-        <input type="text" placeholder="Your Name" required>
+    <input type="text" name="from_name" placeholder="Your Name" required>
 
-        <input type="email" placeholder="Your Email" required>
+    <input type="email" name="from_email" placeholder="Your Email" required>
 
-        <textarea placeholder="Your Message" rows="5" required></textarea>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
 
-        <button type="submit" class="btn">
-            Send Message
-        </button>
+    <button type="submit" class="btn">
+        Send Message
+    </button>
 
-    </form>
+</form>
 
 </div>
 
@@ -391,6 +391,7 @@ High-converting landing pages for products and services.
     💬
 </a>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="script.js"></script>
 
 </body>
