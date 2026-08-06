@@ -123,9 +123,7 @@ if(themeBtn){
         }
 
     });
-
-}
-// ===== EmailJS =====
+    // ===== EmailJS =====
 
 emailjs.init({
     publicKey: "naAiQ6VfiSkiO40yx",
@@ -134,9 +132,7 @@ emailjs.init({
 const contactForm = document.getElementById("contact-form");
 
 if (contactForm) {
-
     contactForm.addEventListener("submit", function (e) {
-
         e.preventDefault();
 
         emailjs.sendForm(
@@ -144,21 +140,15 @@ if (contactForm) {
             "template_8g7xyjc",
             this
         )
-        .then(() => {
-
+        .then(function () {
             alert("✅ Message sent successfully!");
-
             contactForm.reset();
-
         })
-        .catch((error) => {
-
+        .catch(function (error) {
             alert("❌ Failed to send message.");
-
-            console.error(error);
-
+            console.log(error);
         });
-
     });
+}
 
 }
