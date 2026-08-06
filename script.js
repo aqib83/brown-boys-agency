@@ -128,7 +128,7 @@ if(themeBtn){
 alert("Script Loaded");
     
 emailjs.init({
-    publicKey: "naAiQ6VfiSkiO40yx",
+   publicKey: "sczvthHWKkP0Gdo_O",
 });
 
 const contactForm = document.getElementById("contact-form");
