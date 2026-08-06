@@ -881,11 +881,10 @@ body{
 .hero-image img{
     width:100%;
 }
-
-}
 .hero-image img{
-    width:600px;
+    width:750px;
     max-width:100%;
     border-radius:20px;
     box-shadow:0 20px 50px rgba(0,0,0,.4);
 }
+
